@@ -42,19 +42,54 @@ on this Readme.
 - type npm start in the terminal to start the server.
   -Open Insomnia to test the API routes.
 
-  ## Videos
+  API Routes:
+  User
 
-  ## License
+Get all users: GET /api/users
 
-  No license.
+Create a user: POST /api/users
 
-  ## Contributing
+Get user by ID: GET /api/users/:userId
 
-  none
+Update a user: PUT /api/users/:userId
 
-  ## Test
+Delete a user: DELETE /api/users/:userId
 
-  none
+Add a friend: POST /api/users/:userId/friends/:friendId
+
+Delete a friend: DELETE /api/users/:userId/friends/:friendId
+
+Thought
+
+Get all thoughts: GET /api/thoughts
+
+Create a thought: POST /api/thoughts
+
+Get thought by ID: GET /api/thoughts/:thoughtId
+
+Update a thought: PUT /api/thoughts/:thoughtId
+
+Delete a thought: DELETE /api/thoughts/:thoughtId
+
+Reaction
+
+Add a reaction: POST /api/thoughts/:thoughtId/reactions
+
+Delete a reaction: DELETE /api/thoughts/:id/reactions/:reactionId
+
+## Videos
+
+## License
+
+No license.
+
+## Contributing
+
+none
+
+## Test
+
+none
 
 ## Questions
 
