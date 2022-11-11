@@ -3,7 +3,7 @@
 ## Description
 
 This application provides the API for a NoSQL database with MongoDB for a Social
-Media Startup. It does not currently have the HTML/css . The functionality is described below:
+Media Startup. It does not currently have the HTML/css . The functionality is described as:
 WHEN the server is started, the Mongoose models are synced to the MongoDB database.
 The user is able to use the API GET routes in Insomnia to obtain the users and thoughts
 THEN the data for each of these routes is displayed in a formatted JSON.
@@ -28,8 +28,8 @@ on this Readme.
 
 ## Installation
 
-1. Type npm init in terminal and answer the prompts for npm.
-2. Type npm i in terminal to instal node modules and packages.
+1. Type `npm init` in terminal and answer the prompts for npm.
+2. Type `npm i` in terminal to instal node modules and packages.
 3. Install MongoDB https://docs.mongodb.com/manual/installation
 4. Install Node https://nodejs.org/en/download/
 5. Install Mongoose here https://mongoosejs.com/docs/
