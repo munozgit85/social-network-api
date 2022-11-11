@@ -1,5 +1,8 @@
 # social-network-api
 
+https://img.shields.io/npm/l/express
+https://img.shields.io/npm/l/mongoose
+
 ## Description
 
 This application provides the API for a NoSQL database with MongoDB for a Social
@@ -81,7 +84,7 @@ Delete a reaction: DELETE /api/thoughts/:id/reactions/:reactionId
 
 ## License
 
-No license.
+License badges above covered under MIT
 
 ## Contributing
 
