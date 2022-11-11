@@ -1,7 +1,6 @@
 # social-network-api
 
-https://img.shields.io/npm/l/express
-https://img.shields.io/npm/l/mongoose
+![npm express](https://img.shields.io/npm/l/express)</br>
 
 ## Description
 
